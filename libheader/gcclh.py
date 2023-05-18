@@ -1,5 +1,5 @@
 #!python3
-from libheader import lh
+from . import lh
 import os
 import sys
 
