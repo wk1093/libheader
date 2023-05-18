@@ -1,1 +1,1 @@
-from libheader.lh import *
+from . import _version

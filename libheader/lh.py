@@ -1,11 +1,22 @@
 import os
 import sys
+import platform
+from . import _version
+
+versionstr = f"""
+{sys.version_info.major}.{sys.version_info.minor}.{sys.version_info.micro}
+{platform.machine()}
+{os.name}
+{sys.platform}
+{__version__}
+""".replace("\n", " ").strip()
+print(versionstr)
 
 def hexStrOf(i: int):
     return "{:2X}".format(i)
 
 def createLH(header: str, lib: bytes) -> str:
-    h = f"// {os.name}_{sys.platform}\n"
+    h = f"// {versionstr}\n"
     h += header
     # then add lib file to end of file
     h += "\n/*"
