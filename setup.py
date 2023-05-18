@@ -6,7 +6,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
     name='libheader',
-    version='1.0.1',    
+    version='1.0.2',    
     description='A new file format that makes C easier.',
     url='https://github.com/wk1093/libheader',
     author='Wyatt Kloos',
