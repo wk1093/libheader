@@ -1,5 +1,6 @@
-# LibH (Lib Header)
+# Libheader
 
+### lh
 
 A file type that encapsualtes a header (.h), and a static library (.lib/.a)
 

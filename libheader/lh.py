@@ -1,10 +1,12 @@
-# LH file extension converter
+import os
+import sys
 
 def hexStrOf(i: int):
     return "{:2X}".format(i)
 
 def createLH(header: str, lib: bytes) -> str:
-    h = header
+    h = f"// {os.name}_{sys.platform}\n"
+    h += header
     # then add lib file to end of file
     h += "\n/*"
 

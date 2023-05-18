@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='libheader',
-    version='0.1.0',    
+    version='0.1.1',    
     description='A new file format that makes C easier.',
     url='https://github.com/wk1093/libheader',
     author='Wyatt Kloos',
@@ -20,4 +20,8 @@ setup(
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
     ],
+    scripts=[
+        'libheader/gcclh.py',
+        'libheader/makelh.py'
+    ]
 )

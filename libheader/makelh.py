@@ -1,4 +1,5 @@
-import lh
+#!python3
+from libheader import lh
 import os
 import sys
 
