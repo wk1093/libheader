@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='libheader',
-    version='0.1.1',    
+    version='1.0.0',    
     description='A new file format that makes C easier.',
     url='https://github.com/wk1093/libheader',
     author='Wyatt Kloos',

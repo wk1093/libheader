@@ -5,7 +5,7 @@ import sys
 
 if len(sys.argv) != 3:
     print("USAGE: ")
-    print("python makelib.py [file.h] [file.c]")
+    print("makelh [file.h] [file.c]")
     exit()
 
 with open(sys.argv[1], "r") as f:
