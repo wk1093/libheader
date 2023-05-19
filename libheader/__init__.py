@@ -1,1 +1,1 @@
-from . import _version
+from ._version import *

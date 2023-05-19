@@ -1,7 +1,7 @@
 import os
 import sys
 import platform
-from . import _version
+from ._version import __version__
 
 versionstr = f"""
 {sys.version_info.major}.{sys.version_info.minor}.{sys.version_info.micro}
@@ -10,7 +10,6 @@ versionstr = f"""
 {sys.platform}
 {__version__}
 """.replace("\n", " ").strip()
-print(versionstr)
 
 def hexStrOf(i: int):
     return "{:2X}".format(i)
