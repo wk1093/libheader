@@ -25,7 +25,9 @@ setup(
     ],
     scripts=[
         'scripts/gcclh.py',
-        'scripts/makelh.py'
+        'scripts/makelh.py',
+        'scripts/gcclh',
+        'scripts/makelh'
     ],
     long_description=long_description,
     long_description_content_type='text/markdown'
